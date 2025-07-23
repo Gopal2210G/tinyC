@@ -1,0 +1,50 @@
+tinyC_22CS10026_22CS30006.y:69.8-24: warning: POSIX Yacc does not support string literals [-Wyacc]
+   69 | %right "LOWER_THAN_ELSE" ELSE
+      |        ^~~~~~~~~~~~~~~~~
+tinyC_22CS10026_22CS30006.y:286.19-24: warning: POSIX Yacc does not support %empty [-Wyacc]
+  286 | 	  	| %empty
+      |                   ^~~~~~
+tinyC_22CS10026_22CS30006.y:1060.19-24: warning: POSIX Yacc does not support %empty [-Wyacc]
+ 1060 | 		| %empty 				{	}
+      |                   ^~~~~~
+tinyC_22CS10026_22CS30006.y:1074.19-24: warning: POSIX Yacc does not support %empty [-Wyacc]
+ 1074 | 		| %empty				 {	}	...
+      |                   ^~~~~~
+tinyC_22CS10026_22CS30006.y:1120.19-24: warning: POSIX Yacc does not support %empty [-Wyacc]
+ 1120 | 		| %empty					{	...
+      |                   ^~~~~~
+tinyC_22CS10026_22CS30006.y:1270.19-24: warning: POSIX Yacc does not support %empty [-Wyacc]
+ 1270 | 		: %empty 
+      |                   ^~~~~~
+tinyC_22CS10026_22CS30006.y:1307.19-24: warning: POSIX Yacc does not support %empty [-Wyacc]
+ 1307 | 		| %empty			   {	}
+      |                   ^~~~~~
+tinyC_22CS10026_22CS30006.y:1363.19-24: warning: POSIX Yacc does not support %empty [-Wyacc]
+ 1363 | 		| %empty		{	}
+      |                   ^~~~~~
+tinyC_22CS10026_22CS30006.y:1453.19-24: warning: POSIX Yacc does not support %empty [-Wyacc]
+ 1453 | 		| %empty           
+      |                   ^~~~~~
+tinyC_22CS10026_22CS30006.y:1470.19-24: warning: POSIX Yacc does not support %empty [-Wyacc]
+ 1470 | 		| %empty
+      |                   ^~~~~~
+tinyC_22CS10026_22CS30006.y:1478.94-110: warning: POSIX Yacc does not support string literals [-Wyacc]
+ 1478 | ... N %prec "LOWER_THAN_ELSE"
+      |             ^~~~~~~~~~~~~~~~~
+tinyC_22CS10026_22CS30006.y:1653.19-24: warning: POSIX Yacc does not support %empty [-Wyacc]
+ 1653 | 		| %empty            {   }
+      |                   ^~~~~~
+tinyC_22CS10026_22CS30006.y:1656.19-24: warning: POSIX Yacc does not support %empty [-Wyacc]
+ 1656 | M 		: %empty 
+      |                   ^~~~~~
+tinyC_22CS10026_22CS30006.y:1664.19-24: warning: POSIX Yacc does not support %empty [-Wyacc]
+ 1664 | N 		: %empty
+      |                   ^~~~~~
+tinyC_22CS10026_22CS30006_translator.cxx: In function ‘Expression* convertInt2Bool(expr)’:
+tinyC_22CS10026_22CS30006_translator.cxx:711:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  711 | }
+      | ^
+tinyC_22CS10026_22CS30006_translator.cxx: In function ‘Expression* convertBool2Int(expr)’:
+tinyC_22CS10026_22CS30006_translator.cxx:743:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  743 | }
+      | ^
